@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>School</title>
+
+    <link rel="stylesheet" href="template.css">
+    <link rel="stylesheet" href="colors.css">
+    <!-- Latest compiled and minified CSS -->
+    
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+        
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+        
+</head>
+<body>
+  
+<!--heading start--> 
+    <div class="container-fluid" id="heading">   
+        <div class="row">
+            <div class="col-md-5 bg-darkblue">
+                <a href="#" class="first"><p class="text-right mb-1">
+                    <small> Contact: Lake Road, Suite 180 Farmington Hills, U.S.A.
+                    </small></p>
+                </a>
+            </div>
+
+            <div class="col-md-3 bg-darkblue border-left border-right border-light">
+                <a href="#" class="first"><p class="mb-1">  
+                    <small>Phone: +101-1231-1231</small></p>
+                </a>
+            </div>
+
+            <div class="col-md-4 bg-darkblue text-center">
+                <a href="#" class="first px-1"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="first px-1"> <i class="fab fa-google-plus-g"></i></a>
+                <a href="#" class="first px-1"><i class="fab fa-twitter"></i></a>
+                    
+
+            <!-- SIGN IN MODAL TRIGGER -->
+            <a href="#!" class="first-sign-in" data-toggle="modal" data-target="#signin">
+              <small> Sign In </small>
+            </a>
+
+            <!-- SIGN IN MODAL -->
+            <div class="modal" id="signin">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Sign In</h5>
+                                <button class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                            <div class="form-group">
+                            <label for="username">Username</label>
+                            <input type="text" class="form-control">
+                            </div>
+
+                            <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control">
+                            </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-info" data-dismiss="modal">Login</button>
+                            <button class="btn btn-dark" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+
+
+        <!-- SIGN UP MODAL TRIGGER -->
+        <a href="#!" class="first-sign-up" data-toggle="modal" data-target="#signup">
+            <small>  Sign Up</small>
+        </a>
+  
+        <!-- SIGN UP MODAL -->
+            <div class="modal" id="signup">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Sign up</h5>
+                                <button class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group">
+                                    <label for="username">Username</label>
+                                    <input type="text" class="form-control">
+                                </div>
+  
+                                <div class="form-group">
+                                    <label for="password">Password</label>
+                                    <input type="password" class="form-control">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-info" data-dismiss="modal">Login</button>
+                            <button class="btn btn-dark" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+
+                
+            </div>
+        </div>
+    </div>
+<!--heading end-->  
+
+<!--navbar start-->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <div class="container">
+        <a class="navbar-brand" href="main.html">
+            <big> <i class="fas fa-university"></i></big> <strong class="text-darkblue">  Education</strong>
+            <strong class="text-tomato">  Master</strong>
+        </a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                </li class="nav-item">
+                <li>
+                    <a class="nav-link" href="admission.html">Admission</a>
+                </li class="nav-item">
+                <li>
+                    <a class="nav-link" href="courses.html">All Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pages.html">All pages</a>
+                </li class="nav-item">
+                <li>
+                    <a class="nav-link" href="events.html">Events</a>
+                </li class="nav-item">
+                <li>
+                    <a class="nav-link" href="students.html">Student</a>
+                </li class="nav-item">
+                <li>
+                    <a class="nav-link active" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+            
+        </div>
+    </div>
+</nav>
+<!--navbar end-->
+
+<!--search start-->
+<div class="container-fluid bg-darkblue py-3">
+    <div class="row justify-content-sm-center">
+        <div class="col-sm-auto">
+            <form class="form-inline">
+                <div class="input-group">
+                    <input class="form-control form-control-lg" type="text" placeholder="Search Course and Discount Course" >
+                    <div class="input-group-append">
+                        
+                    <button class="btn btn-primary-outline btn-lg" type="button">Search Course</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!--search end-->
+<div class="container-fluid">
+<div class="row">
+    <div class="col-sm-12 p-5">
+<a class="buttonn" href="vacancy.html">For Vacancies</a><br><br><br>
+<a class="buttonn" href="contact.html">Back</a>
+</div>
+</div>
+</div>
+<!--main page content start-->
+<!--form start-->
+<div class="container">
+    <div class="row mb-4">
+        <div class="col-sm-5 ">
+<div class="bg-lightblue border border-dark text-white p-3">
+        <div class="form-group">
+                <label for="name">Name</label>
+                <input class="form-control" type="text" id="name" placeholder="Enter name">
+            </div><br>
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input class="form-control form-control-lg" type="email" id="email" placeholder="Enter email">
+              <small class="form-text text-white">Your email wont be shared.</small>
+            </div><br>
+            <div class="form-group">
+                    <label for="gender">Gender</label>
+                    <select class="form-control" id="gender">
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Other</option>
+                    </select>
+                </div><br>
+                <div class="custom-file">
+                        <input class="custom-file-input" type="file" id="myfile">
+                        <label class="custom-file-label" for="myfile">Upload your CV</label>
+                </div><br><br>
+                <div class="custom-file">
+                        <input class="custom-file-input" type="file" id="myfile">
+                        <label class="custom-file-label" for="myfile">Upload your Citizenship</label>
+                </div><br><br>
+                <div class="custom-file">
+                        <input class="custom-file-input" type="file" id="myfile">
+                        <label class="custom-file-label" for="myfile">Upload your Photo</label>
+                </div><br><br>
+                <input class="btn btn-primary" type="submit" value="Submit">
+                <input class="btn btn-primary" type="reset" value="Reset">
+      </div>          
+</div>
+</div>
+</div>
+
+
+
+
+<!--form end-->
+<!--main page content end-->
+
+<!--bulb start-->
+<div class="container-fluid bg-nextblue pb-4 pt-5">
+    <div class="container bg-nextblue">
+        <div class="row">
+            <div class="col-lg-2 col-xs-12">
+                <img src="img/bulbsize.png" alt="">
+            </div>
+            <div class="col-lg-7 col-xs-12">
+                <h3 class="text-white">THEREFORE ALWAYS FREE FROM REPETITION</h3>
+                <p class="text-white">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
+            </div>
+            <div class="col-lg-3 col-xs-12 ">
+                <a href="#" class="book-course">Book This Course</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--bulb end-->
+
+<!-- footer start-->
+<div class="container-fluid bg-darklightblue py-5">
+    <div class="container bg-darklightblue border-top py-3">
+    <!--upper part start-->
+        <div class="row m-1">
+           <div class="col-lg-4 col-xs-12 ">
+                <div class="row">
+                    <div class="col-xs-12 ">
+                        <h6 class="text-lightblue">TOP COURSES</h6>
+                    </div>
+                </div>
+                <div class="row">
+                   <div class="col-xs-6 m-0 p-0">
+                       <ul class="list-unstyled">
+                            <li> <a href="#" class="link">Accounting/Finance</a> </li>
+                            <li> <a href="#" class="link">Art/design</a> </li>
+                            <li> <a href="#" class="link">Business Management</a> </li>
+                            <li> <a href="#" class="link">Physical Education  </a></li> 
+                       </ul>
+                   </div>
+                   
+                    <div class="col-xs-6 m-0 p-0">
+                        <ul class="list-unstyled">
+                            <li> <a href="#" class="link">Civil Engineering</a> </li>
+                            <li> <a href="#" class="link">Marine Engineering</a> </li>
+                            <li> <a href="#" class="link">Journal/Writing</a> </li>
+                            <li> <a href="#" class="link">Political Science</a></li>  
+                        </ul>
+                    </div>
+                </div>
+           </div>
+
+           <div class="col-lg-4 col-xs-12 border-left border-right">
+                <div class="row">
+                    <div class="col-xs-12 ">
+                        <h6 class="text-lightblue">NEW COURSES</h6>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 m-0 p-0 ">
+                        <ul class="list-unstyled">
+                            <li> <a href="#" class="link">Sciences</a> </li>
+                            <li> <a href="#" class="link">Web</a> </li>
+                            <li> <a href="#" class="link">Design/Development</a> </li>
+                            <li> <a href="#" class="link">Graphics Design  </a></li>
+                            <li> <a href="#" class="link">Information Technology </a></li> 
+                        </ul>
+                    </div>
+                     
+                    <div class=" col-xs-12 m-0 p-0">
+                        <ul class="list-unstyled">
+                            <li> <a href="#" class="link">Statistics</a> </li>
+                            <li> <a href="#" class="link">SEO</a> </li>
+                            <li> <a href="#" class="link">Google Business</a> </li>
+                            <li> <a href="#" class="link">Networking Courses </a></li>  
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-xs-12 ">
+                <div class="row">
+                    <div class="col-xs-12  ">
+                        <h6 class="text-lightblue">HELP AND SUPPORT</h6>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6  col-xs-12 m-0 p-0">
+                        <ul class="list-unstyled">
+                            <li> <a href="#" class="link">24x7 Live Help</a> </li>
+                            <li> <a href="#" class="link">Feedback</a> </li>
+                            <li> <a href="#" class="link">Safety Tips</a> </li>
+                        </ul>
+                    </div>
+                         
+                    <div class="col-sm-6 col-xs-12  m-0 p-0">
+                        <ul class="list-unstyled">
+                            <li> <a href="#" class="link">Contact Us </a> </li>
+                            <li> <a href="#" class="link">FAQs </a></li>  
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--upper part end-->
+        <!--lower part start-->
+        <div class="row pt-4 border-top">
+            <div class="col-md-4 col-xs-12">
+                <h6 class="text-lightblue">GET IN TOUCH</h6>
+                <p class="link">
+                Address: 28800 Orchard Lake Road, Suite 180 Farmington Hills, U.S.A.<br>
+                Phone: +101-1231-4321<br>
+                Email:<a href="#" class="link"> info@educationmaster.com</a>
+                </p>
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <h6 class="text-lightblue">DOWNLOAD OUR FREE MOBILE APPS</h6>
+                <a href="#"><img src="img/appstore.jpg" class="img-border" alt="appstore"></a><br><br>
+                <a href=""> <img src="img/gplay.jpg" class="img-border" alt="google play store"></a>
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <h6 class="text-lightblue">SOCIAL MEDIA</h6>
+                <p class="pt-3">
+
+                <a href="https://www.google.com/" class="linkfoot"><i class="fab fa-google-plus-g"></i></a>
+                <a href="https://www.twitter.com/" class="linkfoot"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com/" class="linkfoot"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.youtube.com/" class="linkfoot"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.viber.com/" class="linkfoot"><i class="fab fa-viber"></i></a>
+                </p>
+            </div>
+        </div>
+        <!--lower part end-->
+    
+    </div>
+</div>
+
+<!-- footer end-->
+
+<!--copyright start-->
+<div class="container-fluid">
+    <div class="row ">
+        <div class="col-sm-12 text-center bg-darkblue text-white p-0">
+            <p class="pt-1 pb-2 m-0 text-lightblue"><small>Copyrights © 2018 RN53Themes. All rights reserved.</small></p>
+        </div>
+    </div>
+</div>
+<!--copyright end-->
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+crossorigin="anonymous"></script>
+
+<script>
+        $('.carousel').carousel({
+          interval:2000,
+          keyboard:true,
+          pause:'hover',
+          wrap: true
+        });
+        </script>
+</body>
+</html>
